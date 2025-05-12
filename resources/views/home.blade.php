@@ -11,8 +11,8 @@
     <h1>{{$titolo}}</h1>
 
     <ul>
-        <li><a href="/about">About</a></li>
-        <li><a href="/more">More</a></li>
+        <li><a href="{{ route('about') }}">About</a></li>
+        <li><a href="{{ route('more') }}">More</a></li>
     </ul>
 
 </body>

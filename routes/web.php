@@ -9,7 +9,7 @@ Route::get('/', function () {
     return view('home', [
         'titolo' => $titolo
     ]);
-});
+})->name("home");
 
 // About
 Route::get('/about', function () {
@@ -18,7 +18,7 @@ Route::get('/about', function () {
     return view('about', [
         'titolo' => $titolo
     ]);
-});
+})->name("about");
 
 // More
 Route::get('/more', function () {
@@ -27,4 +27,4 @@ Route::get('/more', function () {
     return view('more', [
         'titolo' => $titolo
     ]);
-});
+})->name("more");
