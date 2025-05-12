@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <h1>More</h1>
+    <h1>{{$titolo}}</h1>
 
     <ul>
         <li><a href="/">Home</a></li>
